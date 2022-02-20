@@ -2,7 +2,7 @@ import {Route, Routes, Navigate, BrowserRouter} from 'react-router-dom'
 import Letter from "./pages/blogs/letter";
 import Github from "./pages/connections/github";
 
-export default function Router() {
+const RouterMap = () => {
     return (
         <BrowserRouter>
             <Routes>
@@ -13,3 +13,5 @@ export default function Router() {
         </BrowserRouter>
     )
 }
+
+export default RouterMap;
