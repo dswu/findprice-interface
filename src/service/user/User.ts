@@ -2,13 +2,13 @@
 /* eslint-disable */
 import request from 'umi-request';
 
-/** 此处后端没有提供注释 POST /v1/discord/interactions */
-export async function UserDiscordInteractions(
-  body: API.v1InteractionsPayLoad,
+/** 此处后端没有提供注释 POST /user/v1/connection/github */
+export async function UserConnectionGithub(
+  body: API.v1ConnectionGithubPayLoad,
   options?: { [key: string]: any },
 ) {
-  return request<API.v1InteractionsResponse>(
-    `${process.env.REACT_APP_BACKEND_URL + '/.netlify/functions'}/v1/discord/interactions`,
+  return request<API.v1ConnectionGithubResponse>(
+    `${process.env.REACT_APP_BACKEND_URL + '/.netlify/functions'}/user/v1/connection/github`,
     {
       method: 'POST',
       headers: {
@@ -20,13 +20,13 @@ export async function UserDiscordInteractions(
   );
 }
 
-/** 此处后端没有提供注释 POST /v1/user/connection/github */
-export async function UserConnectionGithub(
-  body: API.v1ConnectionGithubPayLoad,
+/** 此处后端没有提供注释 POST /user/v1/discord/interactions */
+export async function UserDiscordInteractions(
+  body: API.v1InteractionsPayLoad,
   options?: { [key: string]: any },
 ) {
-  return request<API.v1ConnectionGithubResponse>(
-    `${process.env.REACT_APP_BACKEND_URL + '/.netlify/functions'}/v1/user/connection/github`,
+  return request<API.v1InteractionsResponse>(
+    `${process.env.REACT_APP_BACKEND_URL + '/.netlify/functions'}/user/v1/discord/interactions`,
     {
       method: 'POST',
       headers: {
