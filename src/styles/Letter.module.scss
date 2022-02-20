@@ -1,0 +1,94 @@
+.col {
+  padding-top: 31px;
+  padding-bottom: 31px;
+  text-align: center;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  color: #237804;
+}
+
+.space {
+  background: #fff;
+  max-width: 640px;
+}
+
+.banner {
+  margin-top: 35px;
+  margin-bottom: 45px;
+  width: 100%;
+}
+
+.title {
+  padding: 20px 40px 10px;
+  font-weight: bold;
+  font-size: 46px;
+  color: #339a40;
+  line-height: 1.2;
+  margin-bottom: 45px;
+}
+
+.text {
+  padding: 10px 40px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #237804;
+  font-weight: 400;
+}
+
+.choice {
+  padding: 5px 40px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #237804;
+  font-weight: 400;
+}
+
+.footerText {
+  padding: 40px 40px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #237804;
+  line-height: 1.2;
+}
+
+.footerButton {
+  padding: 15px 10px 45px;
+  a {
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ef476f;
+    border-radius: 60px;
+    width: auto;
+    border-top: 1px solid #ef476f;
+    border-right: 1px solid #ef476f;
+    border-bottom: 1px solid #ef476f;
+    border-left: 1px solid #ef476f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    mso-border-alt: none;
+    word-break: keep-all;
+  }
+}
+
+.footerButtonText {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+  display: inline-block;
+  letter-spacing: normal;
+  span {
+    font-size: 16px;
+    line-height: 2;
+    word-break: break-word;
+    font-weight: bold;
+  }
+}
+
+.footerLogo {
+  padding: 20px 20px 15px;
+  width: 100%;
+  border-top: 1px solid #E5EAF3;
+}

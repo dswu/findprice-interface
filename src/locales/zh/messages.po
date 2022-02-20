@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-02-19 17:12+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/blogs/letter.tsx
+msgid "A Big Gap"
+msgstr "很大差距"
+
+#: src/pages/blogs/letter.tsx
+msgid "A Gap"
+msgstr "有差距"
+
+#: src/pages/blogs/letter.tsx
+msgid "A ordinary open source contributor"
+msgstr "一个平凡的开源贡献者"
+
+#: src/pages/blogs/letter.tsx
+msgid "Although there have been many efforts and attempts, such as GitHub's Sponsors function, where everyone can donate to a project they admire, and the donor gets the \"privilege\" of having the logo displayed on the project's home page. As open source project owners, it seems that we only need to pay for a few \"peripheral\" booths for the project to generate revenue, but are \" Ad Boards\" our core value? Can we do better than that?"
+msgstr "虽然大家都做了非常多的努力和尝试, 例如 GitHub 推出了 Sponsors 功能, 每个人都可以为自己所欣赏的项目做出捐赠, 而捐赠者可以获得相应的”特权”-把 LOGO 显示在项目的主页. 作为开源项目方, 我们似乎只需要付出项目的一些”周边”展位就能获得收益, 但”广告板”是我们的核心价值吗? 我们可以做的更好吗? "
+
+#: src/pages/blogs/letter.tsx
+msgid "Basic Security"
+msgstr "基本保障"
+
+#: src/pages/blogs/letter.tsx
+msgid "But lately we seem to be getting tired, from GPLv3 to SSPL, from MongoDB to Faker.js and Apache PLC4X, we are trying to put shackles on freedom and stop enjoying it, because of a simple problem, we can't seem to get the value of open source to become its \"price \"?"
+msgstr "但是最近我们似乎越来越疲倦了, 从 GPLv3 到 SSPL, 从 MongoDB 到 Faker.js 以及 Apache PLC4X, 我们在尝试给自由套上枷锁, 而不再享受它, 因为一个很简单的问题, 我们似乎无法让开源的价值变成它的”价格”?"
+
+#: src/pages/blogs/letter.tsx
+msgid "Does the income from your open source project cover the cost of living?"
+msgstr "从事开源项目的收益, 是否能保障生活开销? "
+
+#: src/pages/blogs/letter.tsx
+msgid "Donation"
+msgstr "捐赠"
+
+#: src/pages/connections/github.tsx
+msgid "Done"
+msgstr "完成"
+
+#: src/pages/connections/github.tsx
+msgid "Each user can only bind once"
+msgstr "每个用户只能绑定一次"
+
+#: src/pages/blogs/letter.tsx
+msgid "Essentially the core problem we face is the huge conflict between the advanced open source project model and the outdated business model, but with the development of blockchain technology, projects that have no revenue at all can be funded on their own value and thus find a 'price'."
+msgstr "本质上，我们面临的核心问题是先进的开源项目模式和过时的商业模式之间的巨大冲突，但是随着区块链技术的发展，那些根本没有收入的项目可以根据自己的价值获得资金，从而找到一个价格。"
+
+#: src/pages/blogs/letter.tsx
+msgid "Find Price For Open Source Project?"
+msgstr "Find Price For Open Source Project?"
+
+#: src/pages/blogs/letter.tsx
+msgid "For open source projects, it is certainly worth trying and exploring a value-price discovery model that allows each contributor to do what they love while still being able to support themselves with dignity."
+msgstr "对于开源项目来说，尝试和探索一种价值-价格发现模型当然是值得的，这种模型允许每个贡献者做他们喜欢的事情，同时仍然能够有尊严地养活自己。"
+
+#: src/pages/blogs/letter.tsx
+msgid "How do you get your income?"
+msgstr "你获得收益的方式有?"
+
+#: src/pages/blogs/letter.tsx
+msgid "Imagine what the world would be like without Linux, MySQL and other open source software? The value of each open source project is unquestionable, and the core of freedom should never be abandoned, so could we explore a mechanism to find a price for the value of the project that would allow both?"
+msgstr "试想如果没有 Linux 没有 MySQL 等等开源软件, 世界会变成怎样? 每个开源项目的价值毋庸置疑, 而自由的核心也绝不应被抛弃, 所以, 我们是否可以探索一种项目价值价格发现机制使得两者兼备呢?"
+
+#: src/pages/blogs/letter.tsx
+msgid "Join our Discord!"
+msgstr "Join our Discord!"
+
+#: src/pages/blogs/letter.tsx
+msgid "Match"
+msgstr "匹配"
+
+#: src/pages/blogs/letter.tsx
+msgid "Other"
+msgstr "其他"
+
+#: src/pages/blogs/letter.tsx
+msgid "Technical Services"
+msgstr "技术服务"
+
+#: src/pages/connections/github.tsx
+msgid "The Discord account does not exist"
+msgstr "您的 Discord account 尚未创建"
+
+#: src/pages/connections/github.tsx
+msgid "The Github account is already in use"
+msgstr "您的 GitHub 账号已经被使用"
+
+#: src/pages/blogs/letter.tsx
+msgid "The essential spirit of open source is freedom, and it comes from the free software movement, where every contributor to open source contributes to freedom, and gives to the sharing of resources."
+msgstr "开源的本质精神是自由, 它来源于自由软件运动, 每一个开源贡献者, 都是在为自由而贡献, 为资源共享而付出."
+
+#: src/pages/connections/github.tsx
+msgid "The validation has expired, please click `Start Here` again"
+msgstr "验证已经过期, 请重新点击 Start Here 按钮"
+
+#: src/pages/blogs/letter.tsx
+msgid "The value of your project and the benefits you get as an open source contributor:"
+msgstr "作为开源贡献者, 你项目的价值和所获得的收益:"
+
+#: src/pages/blogs/letter.tsx
+msgid "To the open source contributors:"
+msgstr "致开源项目贡献者:"
+
+#: src/pages/blogs/letter.tsx
+msgid "Truly yours,"
+msgstr "诚挚的,"
+
+#: src/pages/blogs/letter.tsx
+msgid "Unrequited"
+msgstr "纯粹为开源做贡献, 积累技术资本, 不求回报"
+
+#: src/pages/blogs/letter.tsx
+msgid "Very Little"
+msgstr "几乎于零"
+
+#: src/pages/blogs/letter.tsx
+msgid "Welcome to discuss and explore the value of open source projects price discovery mechanism."
+msgstr "欢迎加入 Discord 一起讨论和探讨开源项目价值发现机制"
+
+#: src/pages/connections/github.tsx
+msgid "Your GitHub account can not be associated with FindPrice"
+msgstr "无法将您的 GitHub 账号关联到 FindPrice"

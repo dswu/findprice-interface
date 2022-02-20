@@ -1,0 +1,95 @@
+:root {
+  --background-l0: #edf6f9;
+  --background-l1: #e7e3dc;
+  --background-l2: #f3f1ec;
+  --background-disabled: #00000018;
+  --background-success: green;
+  --background-warn: #d8aa01;
+  --background-failure: tomato;
+  --background-brand-primary: #f5a312;
+  --background-brand-secondary: #FFECBB;
+  --background-action-primary: #006d77;
+  --background-action-secondary: #32c8db44;
+  --background-action-highlight: #3dd1e4;
+  --text-primary: #000000ee;
+  --text-secondary: #00000099;
+  --text-tertiary: #00000055;
+  --text-placeholder: #00000055;
+  --text-disabled: #00000044;
+  --text-success: green;
+  --text-warn: #d8aa01;
+  --text-failure: tomato;
+  --text-header: #f5a312;
+  --text-action-primary: #006d77;
+  --text-action-secondary: #006d77;
+  --text-action-highlight: #25c4d8;
+  --text-brand-primary: #f5a312;
+  --text-brand-secondary: #FFECBB;
+  --text-over-brand-primary: #fff;
+  --text-over-brand-secondary: #000;
+  --text-over-action-primary: #fff;
+  --text-over-action-secondary: #006d77;
+  --text-over-action-highlight: #000000ee;
+  --text-over-success: #fff;
+  --text-over-warn: #fff;
+  --text-over-failure: #fff;
+  --text-over-disabled: #00000055;
+  --icon-primary: #000000ee;
+  --icon-secondary: #00000099;
+  --icon-tertiary: #00000055;
+  --icon-disabled: #00000044;
+  --icon-success: green;
+  --icon-warn: #d8aa01;
+  --icon-failure: tomato;
+  --icon-action-primary: #006d77;
+  --icon-action-secondary: #006d77;
+  --icon-brand-primary: #f5a312;
+  --icon-brand-secondary: #FFECBB;
+  --icon-over-brand-primary: #fff;
+  --icon-over-brand-secondary: #000;
+  --icon-over-action-primary: #fff;
+  --icon-over-action-secondary: #006d77;
+  --icon-over-action-highlight: #25c4d8;
+  --icon-over-success: #fff;
+  --icon-over-warn: #fff;
+  --icon-over-failure: #fff;
+  --icon-over-disabled: #00000055;
+  --stroke-primary: #00000048;
+  --stroke-secondary: #00000032;
+  --stroke-tertiary: #00000018;
+  --stroke-success: green;
+  --stroke-warn: #d8aa01;
+  --stroke-failure: tomato;
+  --stroke-disabled: #00000018;
+  --stroke-action-primary: #006d77;
+  --stroke-action-secondary: #32c8db44;
+  --stroke-action-highlight: #3dd1e4;
+  --radius-xs: 1px;
+  --radius-sm: 1px;
+  --radius-md: 1px;
+  --radius-lg: 1px;
+  --radius-xl: 1px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'DM Mono', monospace, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-primary);
+  background: var(--background-l0);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import 'antd-overrides/index.scss';
