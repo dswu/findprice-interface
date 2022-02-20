@@ -8,6 +8,18 @@ import {useSearchParams} from "react-router-dom";
 import {useRequest} from "ahooks";
 import {UserConnectionGithub} from "../../service/user/User";
 
+function closeWindow(){
+    const userAgent = navigator.userAgent;
+    if (userAgent.indexOf("Firefox") !== -1 || userAgent.indexOf("Chrome") !== -1) {
+        window.location.href="about:blank";
+        window.close();
+    } else {
+        window.opener = null;
+        window.open("", "_self");
+        window.close();
+    }
+}
+
 const Github: FC = () => {
     const [searchParams] = useSearchParams();
 
@@ -40,8 +52,8 @@ const Github: FC = () => {
     }, [error])
 
     useEffect(() => {
-        console.log(data)
-    }, [data])
+        if (data?.success) closeWindow()
+    }, [data?.success])
 
     return useMemo(() => <div style={{display: "grid", placeItems: "center", width: "100%", height: "calc(100vh - 64px - 140px)"}}>
         <div style={{maxWidth: 330}}>
