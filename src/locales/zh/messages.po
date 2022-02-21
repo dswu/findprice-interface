@@ -132,3 +132,7 @@ msgstr "欢迎加入 Discord 一起讨论和探讨开源项目价值发现机制
 #: src/pages/connections/github.tsx
 msgid "Your GitHub account can not be associated with FindPrice"
 msgstr "无法将您的 GitHub 账号关联到 FindPrice"
+
+#: src/pages/connections/github.tsx
+msgid "Your GitHub account is connected to FindPrice"
+msgstr "您的 GitHub 账号已经关联到 FindPrice"

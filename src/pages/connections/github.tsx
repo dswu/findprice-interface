@@ -1,4 +1,4 @@
-import {FC, useEffect, useMemo} from "react";
+import {FC, useMemo} from "react";
 import {Alert, Button, Space} from "antd";
 import GithubLogo from "./assets/github.svg"
 import Link from "./assets/link.svg"
@@ -8,17 +8,19 @@ import {useSearchParams} from "react-router-dom";
 import {useRequest} from "ahooks";
 import {UserConnectionGithub} from "../../service/user/User";
 
-function closeWindow(){
-    const userAgent = navigator.userAgent;
-    if (userAgent.indexOf("Firefox") !== -1 || userAgent.indexOf("Chrome") !== -1) {
-        window.location.href="about:blank";
-        window.close();
-    } else {
-        window.opener = null;
-        window.open("", "_self");
-        window.close();
-    }
-}
+// function closeWindow(){
+//     const userAgent = navigator.userAgent;
+//     if (userAgent.indexOf("Firefox") !== -1 || userAgent.indexOf("Chrome") !== -1) {
+//         // // window.location.href="about:blank";
+//         // // window.close();
+//         // window.open("about:blank", "_self");
+//         // window.close();
+//     } else {
+//         window.opener = null;
+//         window.open("", "_self");
+//         window.close();
+//     }
+// }
 
 const Github: FC = () => {
     const [searchParams] = useSearchParams();
@@ -51,9 +53,9 @@ const Github: FC = () => {
         }
     }, [error])
 
-    useEffect(() => {
-        if (data?.success) closeWindow()
-    }, [data?.success])
+    // useEffect(() => {
+    //     if (data?.success) closeWindow()
+    // }, [data?.success])
 
     return useMemo(() => <div style={{display: "grid", placeItems: "center", width: "100%", height: "calc(100vh - 64px - 140px)"}}>
         <div style={{maxWidth: 330}}>
@@ -66,12 +68,15 @@ const Github: FC = () => {
                 {errMsg !== "" && <div style={{marginBottom: 10}}>
                     <Alert message={errMsg} type="error" />
                 </div>}
+                {data?.success && <div style={{marginBottom: 10}}>
+                    <Alert message={<Trans>Your GitHub account is connected to FindPrice</Trans>} type="success" />
+                </div>}
                 <Button type={"primary"} size={"large"} block loading={loading}>
                     <Trans>Done</Trans>
                 </Button>
             </div>
         </div>
-    </div>, [errMsg, loading])
+    </div>, [data?.success, errMsg, loading])
 }
 
 export default Github;

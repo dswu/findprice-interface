@@ -132,3 +132,7 @@ msgstr "Welcome to discuss and explore the value of open source projects price d
 #: src/pages/connections/github.tsx
 msgid "Your GitHub account can not be associated with FindPrice"
 msgstr "Your GitHub account can not be associated with FindPrice"
+
+#: src/pages/connections/github.tsx
+msgid "Your GitHub account is connected to FindPrice"
+msgstr "Your GitHub account is connected to FindPrice"
