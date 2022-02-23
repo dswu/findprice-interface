@@ -74,7 +74,7 @@ const Letter = () => {
                 </div>
                 <div className={styles.text} style={{marginTop: 41}}>
                     <Trans>Truly yours,</Trans><br/>
-                    <Trans>A ordinary open source contributor</Trans>
+                    <Trans>An ordinary open source contributor</Trans>
                 </div>
                 <div className={styles.footerText}>
                     <Trans>Welcome to discuss and explore the value of open source projects price discovery mechanism.</Trans>
