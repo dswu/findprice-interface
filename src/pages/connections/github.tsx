@@ -57,7 +57,7 @@ const Github: FC = () => {
     //     if (data?.success) closeWindow()
     // }, [data?.success])
 
-    return useMemo(() => <div style={{display: "grid", placeItems: "center", width: "100%", height: "calc(100vh - 64px - 140px)"}}>
+    return useMemo(() => <div style={{display: "grid", placeItems: "center", width: "100%", height: "calc(100vh - 64px)"}}>
         <div style={{maxWidth: 330}}>
             <Space className={styles.buttons} size={40}>
                 <div><img src="/assets/logo.png" alt="logo" style={{width: 90, height: 90}}/></div>
