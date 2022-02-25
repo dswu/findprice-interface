@@ -2,8 +2,6 @@
 
 Find Price frontend application.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/54beae76-2e9d-43d4-a529-af71e777b912/deploy-status)](https://app.netlify.com/sites/findprice/deploys)
-
 - Mainnet: https://findprice.money
 
 ## Report a bug
